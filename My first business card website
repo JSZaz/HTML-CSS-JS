@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Знакомтесь это – Танюша</title>
+</head>
+<body class="page">
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-title">Богиня!</h1>
+      <p><i>По всем вопросам пишите:</i><br><a href="mailto:tanya970000@gmail.com">tanya970000@gmail.com</a></p>
+    </div>
+  </header>
+  <main>
+    <section class="about container">
+      <h2 class="section-title">Привет, я Танюша</h2>
+      <img class="about-image" src="img/photo_2021-08-08_19-35-58.jpg" width="147" height="147" alt="Танюша">
+      <div class="about-content">
+        <p>Кошечка-муркошечка. Люблю рыбку, лимончики и Димку. А также старые города, дома, искусство и тетатры.</p>
+        <p>Люблю массажики всякие, шоб месили меня как тэсто и давить прышчики. Если вы прыщавый молодой человек, с атрофированными нервными окончаниями на кожице и пры дэньгах - пишите, будем дружить! Мяу!</p>
+      </div>
+    </section>
+    <section class="status container">
+      <h2 class="section-title">Мой статус кошечки</h2>
+      <p>#любимаяжена!</p>
+    </section>
+    <section class="contacts container">
+      <h2 class="section-title">Контакты для связи</h2>
+        <p class="contacts-name">Танюша</p>
+        <p><i>email:</i> <a href="mailto:tanya970000@gmail.com">tanya970000@gmail.com</a></p>
+        <p><i>телефон:</i> <a href="tel:+380932864583">+380932864583</a></p>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="container">
+      <p>© Танюша</p>
+      <p>2022</p>
+    </div>
+  </footer>
+</body>
+</html>
