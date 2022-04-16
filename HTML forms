@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML tags Part 3(Forms)</title>
+    </head>
+    <body>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <p>Имя</p>
+                <input placeholder="Name" tabindex="1" name="username" type="text">
+            </div>
+            <div>
+                <p>Пароль</p>
+                <input placeholder="Password" tabindex="2" name="userpass" type="password">
+            </div>
+            <div>
+                <p>Телефон</p>
+                <input placeholder="Tel" tabindex="3" name="userphone" type="tel">
+            </div>
+            <div>
+                <p>Пол</p>
+                <div>
+                    <input checked tabindex="4" type="radio" name="gender" value="male">Мужской
+                </div>
+                <div>
+                    <input tabindex="4" type="radio" name="gender" value="female">Женский
+                </div>
+            </div>
+            <div>
+                <p>Имущество</p>
+                <div>
+                    <input tabindex="5" checked type="checkbox" name="bike" value="yes">Велик
+                </div>
+                <div>
+                    <input tabindex="6" type="checkbox" name="car" value="yes">Машина
+                </div>
+                <div>
+                    <input tabindex="7" disabled type="checkbox" name="appartment" value="yes">Квартира
+                </div>
+            </div>
+            <div>
+                <p>Дополнительная информация</p>
+                <div>
+                    <textarea tabindex="8" name="addinfo"></textarea>
+                </div>
+            </div>
+            <div>
+                <p>Прикрепить фото</p>
+                <input tabindex="9" name="userphoto" type="file">
+            </div>
+            <div>
+                <p>Любимый цвет</p>
+                <select tabindex="10" name="color">
+                    <option value="red">Красный</option>
+                    <option value="yellow">Жёлтый</option>
+                    <option selected value="blue">Синий</option>
+                </select>
+            </div>
+            <div>
+                <p>Действия</p>
+                <button tabindex="11" type="submit">Отправить</button>
+                <button tabindex="12" type="reset">Очистить</button>
+            </div>
+        </form>
+    </body>
+</html>
